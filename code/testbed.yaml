@@ -1,0 +1,34 @@
+devices:
+  Q-L-2:
+    type: router
+    os: iosxe
+    credentials:
+      default:
+        username: admin
+        password: 1234Qwer
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.7.20.70
+      # netconf:
+      #   class: yang.connector.Netconf
+      #   port: 830
+      #   ip: 10.7.20.70
+
+  Q-L-1:
+    type: router
+    alias: uut
+    os: iosxe
+    credentials:
+      default:
+        username: admin
+        password: 1234Qwer
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.7.20.71
+      netconf:
+        class: yang.connector.Netconf
+        port: 830
+        ip: 10.7.20.71
+

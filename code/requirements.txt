@@ -1,0 +1,10 @@
+langchain
+langchain-openai
+openai
+pyats[full]
+webex_bot
+uvicorn
+fastapi
+colorlog
+webexteamssdk
+python-dotenv

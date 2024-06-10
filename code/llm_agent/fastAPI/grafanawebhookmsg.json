@@ -1,0 +1,21 @@
+{
+    "alerts": [
+      {
+        "status": "firing",
+        "annotations": {
+          "summary": "High CPU Usage Alert"
+        },
+        "startsAt": "2023-04-01T14:00:00Z",
+        "endsAt": "2023-04-01T15:00:00Z",
+        "dashboardURL": "http://grafana.example.com/d/abc123/my-dashboard",
+        "panelURL": "http://grafana.example.com/d/abc123/my-dashboard?viewPanel=4"
+      }
+    ],
+    "commonAnnotations": {
+      "runbook_url": "http://example.com/runbook"
+    },
+    "title": "Alert Notification",
+    "status": "firing",
+    "state": "alerting",
+    "message": "Multiple alerts are firing."
+  }

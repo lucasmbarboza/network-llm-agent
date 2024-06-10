@@ -1,0 +1,6 @@
+{
+    "host_url": "0.0.0.0",
+    "llm_http_port": 5001,
+    "testbed_file": "/code/llm_agent/config/testbed.yaml",
+    "logging_config_file": "/code/llm_agent/logger/logger_settings.json"
+}
